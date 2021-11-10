@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import Header from '../../components/common/header';
+import PromotionSlider from '../../components/main/promotion';
 
 const main = () => {
   return (
     <Wrapper>
       <Header></Header>
+      <PromotionSlider></PromotionSlider>
     </Wrapper>
   );
 };
