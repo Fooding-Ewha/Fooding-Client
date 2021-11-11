@@ -16,12 +16,14 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  height: 40%;
 `;
 
 const StyledLogo = styled.img`
-  width: 6em;
-  height: 6em;
-  padding-top: 2em;
+  width: 8em;
+  height: 8em;
+  padding-top: 3em;
 `;
 
 export const SearchInputBox = styled.input`
@@ -29,10 +31,14 @@ export const SearchInputBox = styled.input`
   border: 1px solid #dddddd;
   border-radius: 2em;
   margin: 1em 1em;
-  width: 18em;
+  width: 20em;
+  padding: 0.3em 1em;
   color: black;
-  font-size: 2em;
+  font-size: 1.5em;
   &::placeholder {
     color: lightgrey;
+  }
+  :focus {
+    outline: none;
   }
 `;

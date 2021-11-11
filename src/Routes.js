@@ -38,8 +38,9 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 70vw;
-  height: 75vh;
+  width: 65vw;
+  height: 70vh;
+  padding: 1%;
   background-color: #fbf9f6;
   border-radius: 50px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
