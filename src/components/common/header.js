@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 40%;
+  // height: 40%;
 `;
 
 const StyledLogo = styled.img`
@@ -30,7 +30,6 @@ export const SearchInputBox = styled.input`
   background: white;
   border: 1px solid #dddddd;
   border-radius: 2em;
-  margin: 1em 1em;
   width: 20em;
   padding: 0.3em 1em;
   color: black;
